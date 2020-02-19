@@ -27,7 +27,7 @@ You can choose other online platforms as shown on FASTAI, but I personally like 
 * Register a one month free trial account with [Microsoft Azure Account](https://azure.microsoft.com/en-us/). Unfortunately you need to register with a credit card, although they do not charge you anything during the first month trial.
 * [Install Azure CLI for windows](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
 * [Install the Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows#v2) (I'm using version 3.x)
-* [Install Git](https://gitforwindows.org/)
+* [Install Git](https://git-scm.com/downloads)
 * Register [Docker Hub](https://hub.docker.com/) and [Install Docker](https://www.docker.com/products/docker-desktop)
 * Register [Heroku account](https://www.heroku.com/) and [Install heroku CLI for windows](https://devcenter.heroku.com/articles/heroku-cli)
 * Register [Telegram](https://telegram.org/)
