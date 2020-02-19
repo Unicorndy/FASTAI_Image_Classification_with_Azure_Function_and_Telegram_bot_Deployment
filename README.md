@@ -7,20 +7,25 @@ As a beginner who has gone through many online machine learning tutorials and MO
 
 ## Getting Started
 
-The project consists of 3 parts:
+**The project consists of 3 parts:**
 1. Download image from google search as dataset and train the image classification model using fastai in jupyter notebook
 2. Build docker image for fastai and deploy to Azure function.(One-month free trial)
 3. Setup the Telegram Bot channel and deploy bot python script to Heroku.(Free server)
 
 
-The tools involved in this project:
+**The tools involved in this project:**
 * Except for the hardware, everything else I use in this project are free.
 * Laptop with RTX2060 (You can use google colab which provided GPU processing and should be faster than my hardware.) FASTAI provides the tutorial on how to setup [google colab for FASTAI](https://course.fast.ai/start_colab.html) 
 You can choose other online platforms as shown on FASTAI, but I personally like the convenience of google colab that comes with GPU processing and most important of all, its FREE!
 * Windows 10 cmd or PowerShell - I have chosen Windows instead of Linux as many beginners like myself use Windows. Linux subsystems such as Ubuntu is also available on windows platform.
-* Register a one month free trial account with Microsoft Azure
-* Register Heroku account.
-* Register Telegram.
+* Install python 3.7 and above. I am using [python 3.7.4 64bit version](https://www.python.org/ftp/python/3.7.4/python-3.7.4-amd64.exe)
+* [Visual Studio Code](https://code.visualstudio.com/Download) Source Code Editor to edit python files
+* Register a one month free trial account with [Microsoft Azure Account](https://azure.microsoft.com/en-us/). Unfortunately you need to register with a credit card, although they do not charge you anything during the first month trial.
+* [Install Azure CLI for windows](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
+* [Install the Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows#v2) (I'm using version 3.x)
+* Register [Docker Hub](https://hub.docker.com/) and [Install Docker](https://www.docker.com/products/docker-desktop)
+* Register [Heroku account](https://www.heroku.com/) and [Install heroku for windows]
+* Register [Telegram](https://telegram.org/)
 
 
 ### Prerequisites
