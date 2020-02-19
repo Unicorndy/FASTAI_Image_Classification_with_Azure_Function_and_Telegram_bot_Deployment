@@ -1,4 +1,4 @@
-Part 1: Scrap the images from google image search and train the image classification model using fastai in jupyter notebook.
+## Part 1: Scrap the images from google image search and train the image classification model using fastai in jupyter notebook.
 
 Before jumping into the notebook.
 
