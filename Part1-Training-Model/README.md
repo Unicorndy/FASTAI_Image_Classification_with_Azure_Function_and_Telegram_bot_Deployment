@@ -43,7 +43,7 @@ pip install fastai
 
 Resolve this by downloading Windows SDK 10 (latest version). If this alone doesn't work then download Visual Studio 2019 (again whichever is the latest version). This updates the wheel process. From <[https://github.com/pydata/bottleneck/issues/281](https://github.com/pydata/bottleneck/issues/281)>
 
-8. To check if fastai gpu and the rest are installed properly
+8. To check if fastai cuda support and other packages are installed properly
 ```
 python -m fastai.utils.show_install
 ```
