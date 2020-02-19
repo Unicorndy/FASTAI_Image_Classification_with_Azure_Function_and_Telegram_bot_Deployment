@@ -12,7 +12,7 @@ As a beginner who has gone through many online machine learning tutorials and MO
 ## Getting Started
 
 **The project consists of 3 parts:**
-1. Download image from google search as dataset and train the image classification model using fastai in jupyter notebook
+1. Scrap image from google and train the image classification model using fastai in jupyter notebook. (You can skip this step if you are already familiar with FASTAI and go straight to part 2 using the pre-trained model export.pkl which is included in this repo.)
 2. Build docker image for fastai and deploy to Azure function.(One-month free trial)
 3. Setup the Telegram Bot channel and deploy bot python script to Heroku.(Free server)
 
@@ -27,8 +27,9 @@ You can choose other online platforms as shown on FASTAI, but I personally like 
 * Register a one month free trial account with [Microsoft Azure Account](https://azure.microsoft.com/en-us/). Unfortunately you need to register with a credit card, although they do not charge you anything during the first month trial.
 * [Install Azure CLI for windows](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
 * [Install the Azure Functions Core Tools](https://docs.microsoft.com/en-us/azure/azure-functions/functions-run-local?tabs=windows#v2) (I'm using version 3.x)
+* [Install Git](https://git-scm.com/downloads)
 * Register [Docker Hub](https://hub.docker.com/) and [Install Docker](https://www.docker.com/products/docker-desktop)
-* Register [Heroku account](https://www.heroku.com/) and [Install heroku for windows]
+* Register [Heroku account](https://www.heroku.com/) and [Install heroku CLI for windows](https://devcenter.heroku.com/articles/heroku-cli)
 * Register [Telegram](https://telegram.org/)
 
 
