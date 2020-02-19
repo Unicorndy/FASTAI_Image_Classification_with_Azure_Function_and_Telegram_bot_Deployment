@@ -1,2 +1,30 @@
-# FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment
-This is a mini project using FASTAI_Image Classification and deployment to Azure Function and Telegram bot
+# FASTAI Image Classification with Azure Function and Telegram bot Deployment
+A mini project that uses FASTAI Image Classification to classify 3 types of dogs namely, **Pug, French Bulldog,** and **Boston Terrier**.  The trained model will be deployed to Azure Function and the user can send in their dog images to Telegram bot which will reply with the type of breed.
+
+## Who is this for
+As a beginner who has gone through many online machine learning tutorials and MOOC, I noticed there is a lack of hands-on the gathering of data and deployment of models. It is only until recently that I have completed [Fastai Course Part 1](https://course.fast.ai/). It has alot of emphasis on the practicality and a full walkthrough of the whole process from how to get your dataset, to optimizing your model and finally deployment. With this in mind, I have completed this mini-project with steps by steps explanation and provided the link to where I have gotten the code, resources, and information to complete the project so you may tweak it for your personal projects.
+
+
+## Getting Started
+
+The project consists of 3 parts:
+1. Download image from google search as dataset and train the image classification model using fastai in jupyter notebook
+2. Build docker image for fastai and deploy to Azure function.(One-month free trial)
+3. Setup the Telegram Bot channel and deploy bot python script to Heroku.(Free server)
+
+
+The tools involved in this project:
+* Except for the hardware, everything else I use in this project are free.
+* Laptop with RTX2060 (You can use google colab which provided GPU processing and should be faster than my hardware.) FASTAI provides the tutorial on how to setup [google colab for FASTAI](https://course.fast.ai/start_colab.html) 
+You can choose other online platforms as shown on FASTAI, but I personally like the convenience of google colab that comes with GPU processing and most important of all, its FREE!
+* Windows 10 cmd or PowerShell - I have chosen Windows instead of Linux as many beginners like myself use Windows. Linux subsystems such as Ubuntu is also available on windows platform.
+* Register a one month free trial account with Microsoft Azure
+* Register Heroku account.
+
+
+### Prerequisites
+
+* Completed FASTAI [Lesson 1](https://course.fast.ai/videos/?lesson=1) and [Lesson 2](https://course.fast.ai/videos/?lesson=2)
+* Some basic python and Command-line interface knowledge.
+
+
