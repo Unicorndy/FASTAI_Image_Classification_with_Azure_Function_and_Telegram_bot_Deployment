@@ -48,10 +48,10 @@ Resolve this by downloading Windows SDK 10 (latest version). If this alone doesn
 python -m fastai.utils.show_install
 ```
 ![fastai.utils.show_install](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/show_install.png)  
-9. Download Fastai_Img_Class.ipynb into this directory and Run jupyter notebook
+9. Download **Fastai_Img_Class.ipynb** into this directory and Run jupyter notebook
 ```
 jupyter notebook
 ```
-10. Jupyter notebook will open in your browser. Open Fastai_Img_Class.ipynb and continue from there.
+10. Jupyter notebook will open in your browser. Open **Fastai_Img_Class.ipynb** and continue from there.
 
 Note: As you can see from the notebook that I stop my training with error rate of less than 0.65 percent. There are definitely more ways to lower the error rate, such as more thorough image clean up or choosing resnet50 or increasing epochs, but I decided to stop here due to time constraints and this error rate is good enough for this mini project.
