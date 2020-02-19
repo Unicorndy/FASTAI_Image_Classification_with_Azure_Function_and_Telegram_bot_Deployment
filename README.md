@@ -1,6 +1,10 @@
 # FASTAI Image Classification with Azure Function and Telegram bot Deployment
 A mini project that uses FASTAI Image Classification to classify 3 types of dogs namely, **Pug, French Bulldog,** and **Boston Terrier**.  The trained model will be deployed to Azure Function and the user can send in their dog images to Telegram bot which will reply with the type of breed.
 
+Telegram Bot Demo  
+
+![Telegram Bot Gif](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/telegrambot_sample.gif)
+
 ## Who is this for
 As a beginner who has gone through many online machine learning tutorials and MOOC, I noticed there is a lack of hands-on the gathering of data and deployment of models. It is only until recently that I have completed [Fastai Course Part 1](https://course.fast.ai/). It has alot of emphasis on the practicality and a full walkthrough of the whole process from how to get your dataset, to optimizing your model and finally deployment. With this in mind, I have completed this mini-project with steps by steps explanation and provided the link to where I have gotten the code, resources, and information to complete the project so you may tweak it for your personal projects.
 
