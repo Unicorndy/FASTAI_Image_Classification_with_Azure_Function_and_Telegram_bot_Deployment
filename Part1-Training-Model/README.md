@@ -47,6 +47,7 @@ Resolve this by downloading Windows SDK 10 (latest version). If this alone doesn
 ```
 python -m fastai.utils.show_install
 ```
+![fastai.utils.show_install](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/show_install.png)  
 9. Download Fastai_Img_Class.ipynb into this directory and Run jupyter notebook
 ```
 jupyter notebook
