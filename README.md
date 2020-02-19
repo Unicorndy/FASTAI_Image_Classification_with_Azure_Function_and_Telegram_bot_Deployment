@@ -20,6 +20,7 @@ You can choose other online platforms as shown on FASTAI, but I personally like 
 * Windows 10 cmd or PowerShell - I have chosen Windows instead of Linux as many beginners like myself use Windows. Linux subsystems such as Ubuntu is also available on windows platform.
 * Register a one month free trial account with Microsoft Azure
 * Register Heroku account.
+* Register Telegram.
 
 
 ### Prerequisites
