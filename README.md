@@ -12,7 +12,7 @@ As a beginner who has gone through many online machine learning tutorials and MO
 ## Getting Started
 
 **The project consists of 3 parts:**
-1. Download image from google search as dataset and train the image classification model using fastai in jupyter notebook
+1. Scrap image from google image search and train the image classification model using fastai in jupyter notebook
 2. Build docker image for fastai and deploy to Azure function.(One-month free trial)
 3. Setup the Telegram Bot channel and deploy bot python script to Heroku.(Free server)
 
