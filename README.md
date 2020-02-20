@@ -8,6 +8,8 @@ Telegram Bot Demo( Welcome to try at [Dog Whisperer Bot](t.me/DogWhispererAi_bot
 ## Who is this for
 As a beginner who has gone through many online machine learning tutorials and MOOC, I noticed there is a lack of hands-on the gathering of data and deployment of models. It is only until recently that I have completed [Fastai Course Part 1](https://course.fast.ai/). It has alot of emphasis on the practicality and a full walkthrough of the whole process from how to get your dataset, to optimizing your model and finally deployment. With this in mind, I have completed this mini-project with steps by steps explanation and provided the link to where I have gotten the code, resources, and information to complete the project so you may tweak it for your personal projects.
 
+Most of the instructions are found in the README.md of each section and detail url links are provided for your reference. However, you should be able to purely follow the instructions on the README.md and not required to refer to external link unless specified and to download software.
+
 
 ## Getting Started
 
