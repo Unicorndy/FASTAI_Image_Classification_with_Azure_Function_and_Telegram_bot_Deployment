@@ -1,4 +1,4 @@
-Part 2: Build docker image for fastai and deploy to Azure function. (Comes with one month free trial)
+## Part 2: Build docker image for fastai and deploy to Azure function. (Comes with one month free trial)
 
 Refer to [https://course.fast.ai/deployment_azure_functions.html#test-function](https://course.fast.ai/deployment_azure_functions.html#test-function) for the FASTAI official guide to deploy your trained model.
 
