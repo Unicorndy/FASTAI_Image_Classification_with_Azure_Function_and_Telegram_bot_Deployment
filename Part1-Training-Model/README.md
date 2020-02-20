@@ -2,7 +2,9 @@
 
 Before jumping into the notebook.
 
-1. Create your virtual environment in powershell or cmd
+1. Create your virtual environment in powershell or cmd.   
+  * [Explanation of why you need virtual environment](https://www.youtube.com/watch?v=N5vscPTWKOk)   
+  * [Python Tutorial: VENV (For Windows) - How to Use Virtual Environments with the Built-In venv Module](https://www.youtube.com/watch?v=APOPm01BVrk)   
 ```
 python -m venv yourprojectname
 cd yourprojectname
