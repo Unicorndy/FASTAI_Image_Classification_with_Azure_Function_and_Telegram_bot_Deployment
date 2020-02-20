@@ -40,4 +40,4 @@ You can choose other online platforms as shown on FASTAI, but I personally like 
 * Completed FASTAI [Lesson 1](https://course.fast.ai/videos/?lesson=1) and [Lesson 2](https://course.fast.ai/videos/?lesson=2)
 * Some basic python and Command-line interface knowledge.
 
-
+### Contact Author: <poh.dylan@gmail.com>
