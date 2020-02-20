@@ -104,7 +104,7 @@ you should see in your PowerShell or cmd,
 
 To check that your function is running properly, visit [http://localhost:7071](http://localhost:7071) and you should see the following:
 
-> !!!!! insert image (azure function 3.0 running image
+![azure function 3.0 running image](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part2/1-azure-running.png)
 
 14. Test your Inference Function with test image
 You can send a HTTP POST method to  [http://localhost:7071/api/<YOUR_OWN_FUNCTION_NAME>(http://localhost:7071/api/%3cFUNCTION_NAME%3e)  to check that your inference function is working. 
@@ -115,7 +115,7 @@ To test a local image file which is in the same directory as your <YOUR_AZURE_PR
 ```
 curl -i -X POST -k http://localhost:7071/api/<YOUR_OWN_FUNCTION_NAME> -F "file=@yourfilename.jpg"
 ```
-> !!!!! insert image here ( cmd  - curl prediction output from image
+![cmd  - curl prediction output from image](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part2/2-curl-predict.png)
 
 Note: If you do not have curl, install [git](https://git-scm.com/downloads) which comes with curl.
 
@@ -161,7 +161,7 @@ Docker image with your newly created app is now running at the URL: localhost:80
 
 Test with the curl local test file to check for output
 
-> !!! insert image of curl test file
+![image of curl test file](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part2/3-curl-docker-test.png)
 
 3. Push Docker Image to Docker Hub
 Use the following command to log in to Docker from the cmd. Enter your Docker Hub password when prompted.
@@ -288,22 +288,23 @@ az storage account create --name storagedogclass --location "Southeast Asia" --r
 #Create a Linux App Service Plan
 az appservice plan create --name dogclass_app --resource-group dogclass --sku B1 --is-linux
 
-#Create the App & Deploy the Docker image from Docker Hub
+#Create the App & Deploy the Docker image from Docker Hub (Deployment can take 20-30 minutes to deploy)
 az functionapp create --resource-group dogclass --name dogclassfunctionapp --storage-account  storagedogclass --plan dogclass_app --deployment-container-image-name johnsmith/fastai_azure:v1
 ```
-3. Check if the deployment is successful
-> !!! insert image of website deploy 
+3. Check if the deployment is successful (go to this website https://<FUNCTION_APP>.azurewebsites.net/api/<FUNCTION_NAME>)   
+ You can also see your app in the [Microsoft Azure Portal](https://portal.azure.com/) under Function Apps.   
+![azure website deploy](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part2/4-azure-function-deploy.png)
 
 Go to your Azure account Dashboard
 Deployment is successful if you can see the availability with a green tick
 
-> !!! insert image of website deploy
+![azure website deploy](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part2/5-azure-ticks.png)
 
 4. Test Azure function with curl
 ```
 curl -i -X POST -k [https://dogclassfunctionapp.azurewebsites.net/api/azureDogClass](https://dogclassfunctionapp.azurewebsites.net/api/azureDogClass) -F "file=@yourimagefilename.jpg"
 ```
-> !!! insert image of running azure function
+![testing curl azure function](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part2/6-curl-azure-website.png)
 
 **IMPORTANT**
 Delete Resource Group
