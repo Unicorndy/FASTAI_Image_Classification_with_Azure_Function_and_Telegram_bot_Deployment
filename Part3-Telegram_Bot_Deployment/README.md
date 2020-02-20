@@ -7,8 +7,8 @@ Type in the following:
 
 > /newbot. 
 
-Follow the prompt and complete the creation of the new bot
-A token will be created like below and a link to the new bot channel. (The token here is just a sample and has been revoked)
+Follow the prompt and complete the creation of the new bot.  
+A token will be created like below and a link to the new bot channel. (The token here is just a sample and has been revoked)  
 ![telegram bot registration](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part3/1-telegram-bot-registration.jpg)
 
 3. Create a new directory and a new virtual environment. You should be very familiar with creating virtual environment at this point. Install telegram bot package
@@ -22,11 +22,11 @@ pip install python-telegram-bot
 ```
 python bot.py
 ```
-6. Go to your new bot channel and try sending a image of a dog. You should be getting a response! Press ctrl-c twice to stop the script and the bot will stop working.
+6. Go to your new bot channel and try sending a image of a dog. You should be getting a response! Press ctrl-c twice to stop the script and the bot will stop working.  
 ![Bot predicted class](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part3/2-image_bot_predicted_class.png)
 
 ## Setup Heroku free server to run it online.
-1. You wouldn't want to have to leave your pc on 24 hours just to let the bot function. Therefore the best option is to transfer it onto a server. There are a couple of options, here we will be using heroku to deploy for FREE!
+1. You wouldn't want to have to leave your pc on 24 hours just to let the bot function. Therefore the best option is to transfer it onto a server. There are couple of options, here we will be using heroku to deploy for FREE!
 
 2. Now to get ready for the deployment, register [heroku account](https://www.heroku.com/) if you haven't done so. Make sure you have also installed [heroku CLI for windows](https://devcenter.heroku.com/articles/heroku-cli) and [git](https://git-scm.com/downloads)
 
@@ -60,12 +60,13 @@ Replace the **url** (from step 5) for the webhook which should be near line 64 i
 updater.bot.set_webhook("https://<your_heroku_url_name>.herokuapp.com/{}".format(BOT_TOKEN))
 ```
 
+
 7. Time to git. 
 Ensure the following files you just created are in the same directory
 * heroku_bot.py
 * Procfile
 * requirements.txt
-* 
+
 Enter the following command in the same directory
 ```
 git init
