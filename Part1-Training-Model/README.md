@@ -18,7 +18,7 @@ yourprojectname\scripts\activate
 ```
 .\yourprojectname\scripts\Activate.ps1
 ```
-3. Install all the python packages. If successful, skip to step 8.
+3. Download requirements.txt from this repo and install all the python packages by executing the following. If successful, skip to step 8.
 ```
 python -m pip install -r requirements.txt
 ```
