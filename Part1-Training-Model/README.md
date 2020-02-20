@@ -6,17 +6,16 @@ Before jumping into the notebook.
   * [Explanation of why you need virtual environment](https://www.youtube.com/watch?v=N5vscPTWKOk)   
   * [Python Tutorial: VENV (For Windows) - How to Use Virtual Environments with the Built-In venv Module](https://www.youtube.com/watch?v=APOPm01BVrk)   
 ```
-python -m venv yourprojectname
-cd yourprojectname
+python -m venv yourvirtualenvname
 ```
 2. To activate virtual environment
 * for windows cmd
 ```
-yourprojectname\scripts\activate
+yourvirtualenvname\scripts\activate
 ```
 * for PowerShell
 ```
-.\yourprojectname\scripts\Activate.ps1
+.\yourvirtualenvname\scripts\Activate.ps1
 ```
 3. Download requirements.txt from this repo and install all the python packages by executing the following. If successful, skip to step 8.
 ```
