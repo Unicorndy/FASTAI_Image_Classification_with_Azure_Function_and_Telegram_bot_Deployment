@@ -306,6 +306,9 @@ curl -i -X POST -k [https://dogclassfunctionapp.azurewebsites.net/api/azureDogCl
 ```
 ![testing curl azure function](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part2/6-curl-azure-website.png)
 
+### If you see the predicted class return, congratulation, you have successfully deployed your azure functions and ready to move on to part 3 - Deployed to Telegram Bot   
+
+
 **IMPORTANT**
 Delete Resource Group
 
