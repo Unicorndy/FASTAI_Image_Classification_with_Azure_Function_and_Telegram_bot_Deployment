@@ -3,12 +3,13 @@
 1. Before we deploy our bot to heroku server, we should do a local test first like before. Continue to setup telegram bot first.
 2. Register an account with Telegram if you haven't done so.  Search for [@BotFather](https://telegram.me/BotFather) on telegram
 Type in the following:
-> /start
+> /start  
+
 > /newbot. 
 
 Follow the prompt and complete the creation of the new bot
 A token will be created like below and a link to the new bot channel. (The token here is just a sample and has been revoked)
-> 1 insert image telegram bot registration
+![telegram bot registration](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part3/1-telegram-bot-registration.jpg)
 
 3. Create a new directory and a new virtual environment. You should be very familiar with creating virtual environment at this point. Install telegram bot package
 ```
@@ -22,7 +23,7 @@ pip install python-telegram-bot
 python bot.py
 ```
 6. Go to your new bot channel and try sending a image of a dog. You should be getting a response! Press ctrl-c twice to stop the script and the bot will stop working.
-> 2 insert image Bot predicted class
+![Bot predicted class](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part3/2-image_bot_predicted_class.png)
 
 ## Setup Heroku free server to run it online.
 1. You wouldn't want to have to leave your pc on 24 hours just to let the bot function. Therefore the best option is to transfer it onto a server. There are a couple of options, here we will be using heroku to deploy for FREE!
@@ -40,13 +41,13 @@ web: python heroku_bot.py
 This is used to execute commands in heroku. 
 You can either create the file with notepad or do it in Visual Studio Code as shown below.
 
-> 3 insert image No extension
+![No extension](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part3/3-No-extension.png)
 
 5. Create the heroku app url. Enter this command and copy the url generated (The url can also be retrieve from heroku dashboard.)
 ```
 heroku create 
 ```
-> 4 insert image Heroku url 
+![Heroku url](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/blob/master/image/Part3/4-heroku_url.jpg)
 
 6. Download **heroku_bot.py** in this repo. The code are similar to **bot.py** with some modification. Open the file with Visual Studio Code and replace your own
 * **AZURE ENDPOINT** 
