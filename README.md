@@ -1,4 +1,4 @@
-# FASTAI Image Classification with Azure Function and Telegram bot Deployment ( Under Construction: Last update 20 Feb 2020)
+# FASTAI Image Classification with Azure Function and Telegram bot Deployment
 A mini project that uses FASTAI Image Classification to classify 3 types of dogs namely, **Pug, French Bulldog,** and **Boston Terrier**.  The trained model will be deployed to Azure Function and the user can send in their dog images to Telegram bot which will reply with the type of breed.
 
 Telegram Bot Demo( Welcome to try at [Dog Whisperer Bot](https://t.me/DogWhispererAi_bot) - t.me/DogWhispererAi_bot)  
