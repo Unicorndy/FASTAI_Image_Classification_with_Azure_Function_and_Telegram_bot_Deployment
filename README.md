@@ -16,7 +16,7 @@ Most of the instructions are found in the README.md of each section and detail u
 **The project consists of 3 parts:**
 1. [Scrap image from google and train the image classification model using fastai in jupyter notebook](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/tree/master/Part1-Training-Model) (You can skip this step if you are already familiar with FASTAI and go straight to part 2 using the pre-trained model export.pkl which is included in this repo.)
 2. [Build docker image for fastai and deploy to Azure function.(One-month free trial)](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/tree/master/Part2-AzureFunctions_Deployment)
-3. Setup the Telegram Bot channel and deploy bot python script to Heroku.(Free server)
+3. [Setup the Telegram Bot channel and deploy bot python script to Heroku.(Free server)](https://github.com/Unicorndy/FASTAI_Image_Classification_with_Azure_Function_and_Telegram_bot_Deployment/tree/master/Part3-Telegram_Bot_Deployment)
 
 
 **The tools involved in this project:**
