@@ -2,7 +2,7 @@
 
 Refer to [https://course.fast.ai/deployment_azure_functions.html#test-function](https://course.fast.ai/deployment_azure_functions.html#test-function) for the FASTAI official guide to deploy your trained model.
 
-The steps here are almost similar to FASTAI official guide, but I have added a few tweak here and there which work 
+The steps here are almost similar to FASTAI official guide, but I have added a few tweak here and there to make it work for this projet and for telegram bot deployment.
 
 Take note: Fastai only works when you provide your own custom Docker image on the App Service plan. 
 
